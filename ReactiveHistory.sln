@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28315.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveHistory", "src\ReactiveHistory\ReactiveHistory.csproj", "{9832484C-4BBE-43E9-B40E-9F57AF68A185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15FC57FA-8C2F-43AF-82D4-F53A1AA3A7EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E982B451-CC08-4731-B035-E0E1B38B81A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A47CBA6E-2F46-4308-BA5B-DE4AE5253F32}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		build.ps1 = build.ps1
+		build.sh = build.sh
+		global.json = global.json
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveHistory.UnitTests", "tests\ReactiveHistory.UnitTests\ReactiveHistory.UnitTests.csproj", "{71BA2D95-53E6-42D4-ADAA-CF34C77494F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{4A600469-8200-4BDD-AA90-6B34B2D1CD2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveHistorySample.Base", "samples\ReactiveHistorySample.Base\ReactiveHistorySample.Base.csproj", "{342F4B0A-2EEB-434D-B4FC-8E76DA474729}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{04528DEE-83A0-41B8-B35A-6026C20AC281}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{24184708-8950-4B74-9CBB-BB68291FF9C6}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.TXT = LICENSE.TXT
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{1C68A69B-E16C-4603-9DD3-DDB4E4393EDF}"
+	ProjectSection(SolutionItems) = preProject
+		build\Avalonia.Desktop.props = build\Avalonia.Desktop.props
+		build\Avalonia.Diagnostics.props = build\Avalonia.Diagnostics.props
+		build\Avalonia.props = build\Avalonia.props
+		build\Base.props = build\Base.props
+		build\ReactiveProperty.props = build\ReactiveProperty.props
+		build\ReferenceAssemblies.props = build\ReferenceAssemblies.props
+		build\Rx.props = build\Rx.props
+		build\XUnit.props = build\XUnit.props
+		build\SourceLink.props = build\SourceLink.props
+		build\Avalonia.Web.Blazor.props = build\Avalonia.Web.Blazor.props
+		build\Avalonia.Themes.Fluent.props = build\Avalonia.Themes.Fluent.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{97B14D1B-E4E9-4076-9FEE-BB8155017B35}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\build\_build.csproj", "{AC563EBE-9593-4709-B201-CB225B857660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveHistorySample.Desktop", "samples\ReactiveHistorySample.Desktop\ReactiveHistorySample.Desktop.csproj", "{A4203378-4E00-4360-9B4D-2266BFD4F77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveHistorySample.Web", "samples\ReactiveHistorySample.Web\ReactiveHistorySample.Web.csproj", "{3AA98723-5824-4EC5-9814-CC156D0F76E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9832484C-4BBE-43E9-B40E-9F57AF68A185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9832484C-4BBE-43E9-B40E-9F57AF68A185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9832484C-4BBE-43E9-B40E-9F57AF68A185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9832484C-4BBE-43E9-B40E-9F57AF68A185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BA2D95-53E6-42D4-ADAA-CF34C77494F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BA2D95-53E6-42D4-ADAA-CF34C77494F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BA2D95-53E6-42D4-ADAA-CF34C77494F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BA2D95-53E6-42D4-ADAA-CF34C77494F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342F4B0A-2EEB-434D-B4FC-8E76DA474729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342F4B0A-2EEB-434D-B4FC-8E76DA474729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342F4B0A-2EEB-434D-B4FC-8E76DA474729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342F4B0A-2EEB-434D-B4FC-8E76DA474729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC563EBE-9593-4709-B201-CB225B857660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC563EBE-9593-4709-B201-CB225B857660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC563EBE-9593-4709-B201-CB225B857660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC563EBE-9593-4709-B201-CB225B857660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4203378-4E00-4360-9B4D-2266BFD4F77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4203378-4E00-4360-9B4D-2266BFD4F77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4203378-4E00-4360-9B4D-2266BFD4F77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4203378-4E00-4360-9B4D-2266BFD4F77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA98723-5824-4EC5-9814-CC156D0F76E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA98723-5824-4EC5-9814-CC156D0F76E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA98723-5824-4EC5-9814-CC156D0F76E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA98723-5824-4EC5-9814-CC156D0F76E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9832484C-4BBE-43E9-B40E-9F57AF68A185} = {15FC57FA-8C2F-43AF-82D4-F53A1AA3A7EF}
+		{71BA2D95-53E6-42D4-ADAA-CF34C77494F5} = {E982B451-CC08-4731-B035-E0E1B38B81A5}
+		{342F4B0A-2EEB-434D-B4FC-8E76DA474729} = {4A600469-8200-4BDD-AA90-6B34B2D1CD2A}
+		{04528DEE-83A0-41B8-B35A-6026C20AC281} = {A47CBA6E-2F46-4308-BA5B-DE4AE5253F32}
+		{1C68A69B-E16C-4603-9DD3-DDB4E4393EDF} = {A47CBA6E-2F46-4308-BA5B-DE4AE5253F32}
+		{97B14D1B-E4E9-4076-9FEE-BB8155017B35} = {A47CBA6E-2F46-4308-BA5B-DE4AE5253F32}
+		{AC563EBE-9593-4709-B201-CB225B857660} = {A47CBA6E-2F46-4308-BA5B-DE4AE5253F32}
+		{A4203378-4E00-4360-9B4D-2266BFD4F77C} = {4A600469-8200-4BDD-AA90-6B34B2D1CD2A}
+		{3AA98723-5824-4EC5-9814-CC156D0F76E8} = {4A600469-8200-4BDD-AA90-6B34B2D1CD2A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AF6934B-C008-472A-9E35-8EBA7CAEA3D8}
+	EndGlobalSection
+EndGlobal
